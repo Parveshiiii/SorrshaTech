@@ -9,6 +9,10 @@
   [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3.0-06B6D4?logo=tailwind-css)](https://tailwindcss.com/)
 </div>
 
+<div>
+  
+</div>
+
 ## ✨ Features
 
 - ⚡ Blazing fast performance with Vite
