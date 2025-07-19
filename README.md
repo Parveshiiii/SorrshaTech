@@ -8,7 +8,7 @@
   [![Vite](https://img.shields.io/badge/Vite-4.0.0-646CFF?logo=vite)](https://vitejs.dev/)
   [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3.0-06B6D4?logo=tailwind-css)](https://tailwindcss.com/)
 </div>
-
+<img width="2880" height="1636" alt="image" src="https://github.com/user-attachments/assets/8cb40417-1f2d-425d-a202-962014167505" />
 <div>
   
 </div>
