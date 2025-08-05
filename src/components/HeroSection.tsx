@@ -59,16 +59,8 @@ const HeroSection = () => {
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 1, delay: 0.3, ease: "backOut" }}
           >
-            <motion.h1 
-              className="text-5xl sm:text-6xl md:text-8xl font-bold text-gradient animate-glow glitch"
-              data-text="ST"
-              whileHover={{ scale: 1.05 }}
-              transition={{ type: "spring", stiffness: 300 }}
-            >
-              ST
-            </motion.h1>
             <motion.p 
-              className="text-2xl sm:text-3xl md:text-4xl font-bold tracking-widest text-gradient mt-2"
+              className="text-4xl sm:text-5xl md:text-7xl font-bold tracking-widest text-gradient"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.6 }}

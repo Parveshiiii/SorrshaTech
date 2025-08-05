@@ -99,15 +99,14 @@ const Index = () => {
           
           <div className="max-w-7xl mx-auto text-center relative z-10">
             <motion.div 
-              className="flex flex-col items-center justify-center gap-2 mb-6"
+              className="mb-6"
               whileHover={{ 
                 scale: 1.02,
                 textShadow: '0 0 15px rgba(255,255,255,0.5)'
               }}
               transition={{ duration: 0.3 }}
             >
-              <div className="text-5xl font-bold text-gradient mb-2">ST</div>
-              <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-blue-100">
+              <span className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-blue-100">
                 SorrshaTech
               </span>
             </motion.div>
