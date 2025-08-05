@@ -71,7 +71,7 @@ const Index = () => {
         
         {/* Enhanced Footer */}
         <motion.footer 
-          className="relative py-16 px-6 overflow-hidden"
+          className="relative py-16 px-6 overflow-hidden border-t border-border/50 bg-gradient-secondary"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
@@ -83,7 +83,7 @@ const Index = () => {
             style={{
               background: 'linear-gradient(45deg, #3b82f6, #8b5cf6, #ec4899, #f59e0b, #3b82f6)',
               backgroundSize: '300% 300%',
-              opacity: 0.9
+              opacity: 0.3
             }}
             animate={{
               backgroundPosition: ['0% 50%', '100% 50%', '0% 50%'],
@@ -99,20 +99,21 @@ const Index = () => {
           
           <div className="max-w-7xl mx-auto text-center relative z-10">
             <motion.div 
-              className="flex items-center justify-center gap-2 mb-6"
+              className="flex flex-col items-center justify-center gap-2 mb-6"
               whileHover={{ 
-                scale: 1.05,
+                scale: 1.02,
                 textShadow: '0 0 15px rgba(255,255,255,0.5)'
               }}
               transition={{ duration: 0.3 }}
             >
-              <span className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-blue-100">
+              <div className="text-5xl font-bold text-gradient mb-2">ST</div>
+              <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-blue-100">
                 SorrshaTech
               </span>
             </motion.div>
             
             <motion.p 
-              className="text-lg text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed"
+              className="text-lg text-foreground/90 mb-8 max-w-2xl mx-auto leading-relaxed"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
@@ -121,12 +122,14 @@ const Index = () => {
             </motion.p>
             
             <motion.p 
-              className="text-sm text-white/60"
+              className="text-sm text-foreground/60"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 0.6, delay: 0.4 }}
             >
-              © {new Date().getFullYear()} SorrshaTech. All rights reserved.
+              <div> 
+                &copy; {new Date().getFullYear()} SorrshaTech. All rights reserved.
+              </div>
             </motion.p>
           </div>
         </motion.footer>

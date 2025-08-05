@@ -13,9 +13,15 @@ const contactInfo = [
   },
   {
     icon: Phone,
-    title: "Phone",
+    title: "India Phone",
     value: "+91 80536 65373",
     href: "tel:+918053665373"
+  },
+  {
+    icon: Phone,
+    title: "USA Phone",
+    value: "+1 214 316 0327",
+    href: "tel:+12143160327"
   },
   {
     icon: MapPin,
